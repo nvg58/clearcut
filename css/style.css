@@ -1,0 +1,44 @@
+body {
+	font-family: 'Georgia';
+	color: rgb(150, 150, 150);
+}
+
+.navbar-default {
+	border-style: none;
+	background-color: white;	
+}
+
+.navbar div.container {
+	border-top: 3px solid #a7c353;
+}
+
+.navbar div.navbar-collapse {
+	border-bottom: 1px solid #a7c353;
+}
+
+.navbar-brand {
+	font-size: 26px;
+	text-transform: uppercase;
+	padding-top: 30px;
+	height: 100px;	
+}
+
+.navbar-nav {
+	font-size: 13px;
+	text-transform: uppercase;	
+}
+
+.navbar-nav li a {
+	padding-top: 55px;
+	height: 100px;
+}
+
+.navbar-nav li:hover {
+	background-color: #a7c353;	
+}
+
+.navbar-default .navbar-nav > li:hover > a {
+	color: white;
+}
+
+
