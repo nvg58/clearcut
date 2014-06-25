@@ -41,4 +41,24 @@ body {
 	color: white;
 }
 
+.quotation p {
+	font-size: 22px;
+	font-style: italic;
+	text-align: center;
+	padding: 30px 0px 40px 0px;
+}
+
+.carousel-inner div img {	
+  	min-width: 100%; 
+}
+
+.carousel-control {	
+	opacity: 1.0;
+	width: 6%;	
+	top: 50%;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, transparent 100%);
+}
 
