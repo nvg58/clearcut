@@ -1,6 +1,30 @@
 body {
 	font-family: 'Georgia';
-	color: rgb(150, 150, 150);
+	color: #999999;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+h4 {
+	font-size: 13px;
+}
+
+p {
+	font-size: 13px;
+}
+
+a {
+	color: #a7c353;
+}
+
+textarea {
+	resize: none;
 }
 
 .navbar-default {
@@ -8,11 +32,11 @@ body {
 	background-color: white;	
 }
 
-.navbar div.container {
+.navbar .container {
 	border-top: 3px solid #a7c353;
 }
 
-.navbar div.navbar-collapse {
+.navbar .navbar-collapse {
 	border-bottom: 1px solid #a7c353;
 }
 
@@ -32,33 +56,203 @@ body {
 	padding-top: 55px;
 	height: 100px;
 }
-
 .navbar-nav li:hover {
 	background-color: #a7c353;	
 }
-
 .navbar-default .navbar-nav > li:hover > a {
 	color: white;
 }
 
-.quotation p {
-	font-size: 22px;
+
+.quotation h2 {
+	/*font-size: 22px;*/
 	font-style: italic;
 	text-align: center;
-	padding: 30px 0px 40px 0px;
+	padding: 30px 0 40px 0;
 }
 
+
+/** =Carousel
+---------------------------------------------*/
 .carousel-inner div img {	
   	min-width: 100%; 
 }
-
 .carousel-control {	
 	opacity: 1.0;
-	width: 6%;	
-	top: 50%;
+	width: 52px;
+	height: 52px;	
+	top: 45%;
 }
-
 .carousel-control.left, .carousel-control.right {
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, transparent 100%);
 }
+.carousel-control.left {
+	left: 10px;
+}
+.carousel-control.right {
+	right: 10px;
+}
+.carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li.active {
+	background-color: #fff;
+	border: 2px solid #a7c353;
+	width: 13px;
+	height: 13px
+}
 
+.carousel-indicators li {
+	background-color: #a7c353;
+	border: 2px solid #a7c353;
+	width: 12px;
+	height: 12px
+}
+
+#carousel-slide {
+	/*padding-bottom: 30px;*/
+}
+
+.divider {
+  height: 1px;
+  background: #e2e2e2;  
+  margin-top: 60px;
+  margin-bottom: 35px;
+}
+
+.about, .services {
+	padding-bottom: 20px;
+}
+
+.about img {
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.about p {
+	/*width: 270px;*/
+	/*text-align: left;*/
+}
+
+.content-title {
+	margin-bottom: 30px;
+}
+
+.service {
+	margin-bottom: 35px;
+}
+
+.service h3 {
+	font-weight: 500;
+	margin-top: 0px;
+}
+
+.service-text {
+	width: 75%;
+}
+
+.content a {
+	float: right;
+	color: #a7c353;
+	font-size: 14px;
+}
+
+.testimonials h3 {
+	display: inline;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 20px;	
+}
+
+.testimonials img {
+	margin-bottom: 10px;
+}
+
+.testimonial {
+	padding-bottom: 40px;
+}
+
+.footer {
+	background-color: #313131;
+	/*color: white;*/
+}
+
+.footer-title {
+	padding: 20px 0px;	
+	color: white;
+	border-bottom: 1px solid #383838;
+}
+
+.footer p {
+	color: #999999;
+}
+
+.footer div {
+	/*opacity: 0.9;*/
+}
+
+.social-client {
+	border-bottom: 1px solid #383838;
+	padding: 10px 0px;
+	
+}
+
+.social-client a {
+	margin-left: 10px;
+	font-size: 12px;
+	display: inline;	
+}
+
+.blog {
+	padding-bottom: 20px;
+}
+
+.blog .author {
+	font-size: 12px;
+}
+
+.blog a {
+	font-size: 13px;
+}
+
+.blog-title {
+	color: #999
+}
+
+.footer-content textarea, .footer-content input {
+	color: #999999;
+	background-color: #383838;
+	border-radius: 6px;
+	margin: 5px 0px;
+	padding: 7px;
+	font-size: 13px;
+	width: 100%;
+	border: 0px;
+}
+
+.btn-green {
+	background-color: #a7c353;	
+	color: #313131;
+}
+
+.btn-green:hover {
+	color: white;
+}
+
+.footer {
+	
+}
+
+.footer .col-md-3 {
+	padding-bottom: 30px;
+}
+
+.copyright {
+	background-color: #313131;
+	border-top: 1px solid #383838;
+	padding: 20px 40px;
+}
+
+.domain-name, .os-template {
+	/*padding: 20px 15px;*/
+}
