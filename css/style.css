@@ -1,6 +1,10 @@
 body {
 	font-family: 'Georgia';	
-	color: #999999;
+	color: #999999;	
+}
+
+.container {
+	background-color: white;
 }
 
 h2 {
@@ -27,6 +31,18 @@ textarea {
 	resize: none;
 }
 
+.hover-img {
+	opacity: 1.0;
+    transition: opacity 0.7s ease-in-out;
+    -moz-transition: opacity 0.7s ease-in-out;
+    -webkit-transition: opacity 0.7s ease-in-out;
+}
+.hover-img:hover {
+	opacity: 0.6;
+    transition: opacity .35s ease-in-out;
+    -moz-transition: opacity .35s ease-in-out;
+    -webkit-transition: opacity .35s ease-in-out;
+}
 
 /** =Link
 ---------------------------------------------*/
@@ -162,19 +178,20 @@ textarea {
 	background: #fff;
 	border: 1px solid #ddd;
 }
-.about img:hover {
-	opacity: 0.6
-}
 .content-title {
 	margin-bottom: 30px;
 }
 
 .service {
 	margin-bottom: 35px;
+	height: 50px;
 }
 .service h3 {
 	font-weight: 500;
 	margin-top: 0px;
+}
+.service-img {
+	float: left;
 }
 .service-text {
 	width: 75%;
