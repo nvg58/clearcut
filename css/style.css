@@ -81,10 +81,10 @@ textarea {
 	padding-top: 55px;
 	height: 100px;
 }
-.navbar-nav li:hover {
+.navbar-nav li:hover, .navbar-nav .hightlight {
 	background-color: #a7c353;	
 }
-.navbar-default .navbar-nav > li:hover > a {
+.navbar-default .navbar-nav > li:hover > a, .navbar-default .navbar-nav > li.hightlight > a {
 	color: white;
 }
 
@@ -95,7 +95,7 @@ textarea {
 	/*font-size: 22px;*/
 	font-style: italic;
 	text-align: center;
-	padding: 30px 0 40px 0;
+	padding-bottom: 30px;
 }
 
 
