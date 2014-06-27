@@ -1,5 +1,5 @@
 body {
-	font-family: 'Georgia';
+	font-family: 'Georgia';	
 	color: #999999;
 }
 
@@ -23,14 +23,18 @@ a {
 	color: #a7c353;
 }
 
-img:hover {
-	opacity: 0.5;
-}
-
 textarea {
 	resize: none;
 }
 
+
+/** =Link
+---------------------------------------------*/
+.double-arrow:after {
+	content: " \f101";
+	font-family: FontAwesome;
+	font-size: 11px;
+}
 
 /** =Navigation bar
 ---------------------------------------------*/
@@ -85,7 +89,7 @@ textarea {
 	opacity: 1.0;
 	width: 52px;
 	height: 52px;	
-	top: 45%;
+	top: 44%;
 }
 .carousel-control.left, .carousel-control.right {
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, transparent 100%);
@@ -113,8 +117,23 @@ textarea {
 	height: 12px
 }
 
+.carousel-caption {	
+	top: 60%;
+	width: 355px;
+	left: 63%;
+}
 .caption-title {
-
+	background-color: #a7c353;
+	display: inline;
+	padding: 10px 25px;	
+}
+.caption-content {
+	background-color: white;	
+	margin-top: 20px;
+	padding: 10px 10px;	
+	color: #999999;
+	text-align: left;
+	text-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
 
 
@@ -133,12 +152,18 @@ textarea {
 .about, .services {
 	padding-bottom: 20px;
 }
+.about > a {
+	width: 100%;
+}
 .about img {
 	margin-bottom: 20px;
 	width: 100%;
 	padding: 4px;
 	background: #fff;
 	border: 1px solid #ddd;
+}
+.about img:hover {
+	opacity: 0.6
 }
 .content-title {
 	margin-bottom: 30px;
@@ -235,7 +260,6 @@ textarea {
 
 /** =Copyright Section
 ---------------------------------------------*/
-
 .copyright {
 	background-color: #313131;
 	border-top: 1px solid #383838;
