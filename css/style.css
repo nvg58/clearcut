@@ -51,6 +51,9 @@ textarea {
 	font-family: FontAwesome;
 	font-size: 11px;
 }
+.double-arrow {
+	float: right;
+}
 
 /** =Navigation bar
 ---------------------------------------------*/
@@ -168,9 +171,6 @@ textarea {
 .about, .services {
 	padding-bottom: 20px;
 }
-.about > a {
-	width: 100%;
-}
 .about img {
 	margin-bottom: 20px;
 	width: 100%;
@@ -195,11 +195,6 @@ textarea {
 }
 .service-text {
 	width: 75%;
-}
-.content a {
-	float: right;
-	color: #a7c353;
-	font-size: 14px;
 }
 
 .testimonials h3 {
