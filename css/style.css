@@ -137,18 +137,16 @@ textarea {
 }
 
 .carousel-caption {	
-	top: 60%;
-	width: 355px;
-	left: 63%;
+	left: 60%;
+	right: 6%;
+	padding-bottom: 30px;
 }
 .caption-title {
 	background-color: #a7c353;
-	display: inline;
 	padding: 10px 25px;	
 }
 .caption-content {
 	background-color: white;	
-	margin-top: 20px;
 	padding: 10px 10px;	
 	color: #999999;
 	text-align: left;
